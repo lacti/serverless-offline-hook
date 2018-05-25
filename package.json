@@ -1,0 +1,35 @@
+{
+  "name": "serverless-offline-hook",
+  "version": "0.0.1",
+  "description": "Serverless plugin for calling a urls while executing some commands of serverless-offline",
+  "main": "src/index.js",
+  "repository": "https://github.com/lacti/serverless-offline-hook",
+  "author": "Jaeyoung Choi <lactrious@gmail.com>",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "^23.0.0",
+    "prettier": "^1.12.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "env": {
+      "es6": true
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
